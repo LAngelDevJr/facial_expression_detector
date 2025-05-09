@@ -1,0 +1,37 @@
+🔧 Requisitos del entorno
+Este proyecto utiliza los siguientes paquetes de Python:
+opencv-python
+mediapipe
+numpy
+scipy
+matplotlib
+nbformat (necesario si se usa Jupyter Notebooks o para compatibilidad con formatos de notebook)
+
+# Crear entorno virtual
+python -m venv env
+
+# Activar entorno virtual (Windows)
+env\Scripts\activate
+
+pip install opencv-python mediapipe numpy scipy matplotlib nbformat
+
+SUBIR AL GITHUB
+cd ruta\a\mi\proyecto
+git init
+🔹 3. Configura tu identidad (solo una vez en tu PC)
+git config --global user.name "Tu Nombre"
+git config --global user.email "tucorreo@example.com"
+
+git remote add origin https://github.com/tu_usuario/nombre-del-repo.git
+git add .
+
+git commit -m "Subida inicial del proyecto con entorno y código"
+git branch -M main
+git push -u origin main
+
+Para siguientes veces:
+
+git add .
+git commit -m "Tu mensaje de cambio"
+git push
+
