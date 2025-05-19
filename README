@@ -1,3 +1,6 @@
+# Aplicativo-Reconocimiento-Expresiones-Faciales-Lengua-de-Signos
+Aplicativo móvil para el reconocimiento de expresiones faciales en Lengua de Señas
+
 🔧 Requisitos del entorno
 Este proyecto utiliza los siguientes paquetes de Python:
 opencv-python
